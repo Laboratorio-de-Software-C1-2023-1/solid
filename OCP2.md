@@ -40,21 +40,11 @@ Es aquí donde notamos que debemos alterar la clase ya existente `Figura` y si, 
 ```csharp
 public abstract class Figura
 {
-    private string tipo;
-
-    public Figura(string tipo)
-    {
-        this.tipo = tipo;
-    }
-
     public abstract double area();
 }
 
 public class Cuadrado : Figura
 {
-
-    public Cuadrado(string tipo) : base(tipo) { }
-
     public override double area()
     {
         // Devuelve cálculo área del cuadrado
@@ -64,9 +54,6 @@ public class Cuadrado : Figura
 
 public class Rectangulo : Figura
 {
-
-    public Rectangulo(string tipo) : base(tipo) { }
-
     public override double area()
     {
         // Devuelve cálculo área del rectangulo
@@ -76,8 +63,6 @@ public class Rectangulo : Figura
 
 public class Circulo : Figura
 {
-    public Circulo(string tipo) : base(tipo) { }
-
     public override double area()
     {
         // Devuelve cálculo área del circulo
@@ -87,9 +72,6 @@ public class Circulo : Figura
 
 public class TrianguloEquilatero : Figura
 {
-
-    public TrianguloEquilatero(string tipo) : base(tipo) { }
-
     public override double area()
     {
         // Devuelve cálculo área del triangulo equilatero

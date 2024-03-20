@@ -8,9 +8,6 @@ namespace OCP2
 {
     public class Rectangulo : Figura
     {
-
-        public Rectangulo(string tipo) : base(tipo) { }
-
         public override double area()
         {
             // Devuelve cálculo área del rectangulo

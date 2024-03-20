@@ -8,9 +8,6 @@ namespace OCP2
 {
     public class Cuadrado : Figura
     {
-
-        public Cuadrado(string tipo) : base(tipo) { }
-
         public override double area()
         {
             // Devuelve cálculo área del cuadrado

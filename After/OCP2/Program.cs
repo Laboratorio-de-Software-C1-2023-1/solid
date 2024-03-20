@@ -6,16 +6,16 @@ namespace OCP2
     {
         static void Main(string[] args)
         {
-            Figura cuadrado = new Cuadrado("cuadrado");
+            Figura cuadrado = new Cuadrado();
             Console.WriteLine(cuadrado.area());
 
-            Figura rectangulo = new Rectangulo("rectangulo");
+            Figura rectangulo = new Rectangulo();
             Console.WriteLine(rectangulo.area());
 
-            Figura circulo = new Circulo("circulo");
+            Figura circulo = new Circulo();
             Console.WriteLine(circulo.area());
 
-            Figura trianguloEquilatero = new TrianguloEquilatero("circulo");
+            Figura trianguloEquilatero = new TrianguloEquilatero();
             Console.WriteLine(trianguloEquilatero.area());
         }
     }

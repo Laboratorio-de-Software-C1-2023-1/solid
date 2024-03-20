@@ -8,9 +8,6 @@ namespace OCP2
 {
     public class Circulo : Figura
     {
-
-        public Circulo(string tipo) : base(tipo) { }
-
         public override double area()
         {
             // Devuelve cálculo área del circulo

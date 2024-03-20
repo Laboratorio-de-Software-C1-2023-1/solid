@@ -8,9 +8,6 @@ namespace OCP2
 {
     public class TrianguloEquilatero : Figura
     {
-
-        public TrianguloEquilatero(string tipo) : base(tipo) { }
-
         public override double area()
         {
             // Devuelve cálculo área del triangulo equilatero
