@@ -40,6 +40,13 @@ public interface NotificacionSender
 {
     public void SendNotification(String addressee, String subject, String body);
 }
+public class EmailSender : NotificacionSender
+{
+    public void SendNotification(String addressee, String subject, String body)
+    {
+        Console.WriteLine("Se envió email a " + addressee + ", con asunto " + subject + " y cuerpo " + body);
+    }
+}
 public class WhatsAppSender : NotificacionSender
 {
     public void SendNotification(String addressee, String subject, String body)
